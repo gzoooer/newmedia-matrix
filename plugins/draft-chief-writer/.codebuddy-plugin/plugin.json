@@ -1,0 +1,61 @@
+{
+  "name": "draft-chief-writer",
+  "version": "1.0.0",
+  "description": "Chief content writer who turns a locked topic into a sharp, well-structured master draft with a clear viewpoint, real supporting cases and a closed logic chain.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/draft-chief-writer.md"
+  ],
+  "expertType": "agent",
+  "agentName": "draft-chief-writer",
+  "displayName": {
+    "en": "Bi Chenggao",
+    "zh": "毕成稿"
+  },
+  "profession": {
+    "en": "Chief Content Writer",
+    "zh": "内容初稿主笔"
+  },
+  "displayDescription": {
+    "en": "A chief writer who turns a locked topic into a platform-neutral master draft with a sharp thesis, a solid argument skeleton and real supporting material.",
+    "zh": "把锁定选题写成全平台通用母版，立住核心论点、搭好分论点骨架、配齐支撑素材，直出可进入润色的初稿。"
+  },
+  "avatar": "avatars/draft-chief-writer.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "按这个选题写一篇初稿：核心论点要有立场，分论点各有支撑素材，不要空话套话和机械连接词。",
+    "en": "Write a first draft on this topic: a thesis with a real stance, each sub-argument backed by material, and no filler or mechanical connectors."
+  },
+  "plugin": "draft-chief-writer",
+  "tags": [
+    {
+      "en": "Long-form Drafting",
+      "zh": "深度长文撰写"
+    },
+    {
+      "en": "Argument Structure",
+      "zh": "观点结构搭建"
+    },
+    {
+      "en": "Case & Evidence Support",
+      "zh": "案例素材支撑"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "按这个选题写一篇初稿：核心论点要有立场，分论点各有支撑素材，不要空话套话和机械连接词。",
+      "en": "Write a first draft on this topic: a thesis with a real stance, each sub-argument backed by material, and no filler or mechanical connectors."
+    },
+    {
+      "zh": "这篇初稿观点太软、逻辑有断层，帮我重搭论点结构和段落节奏。",
+      "en": "This draft has a weak thesis and logic gaps. Rebuild the argument structure and paragraph rhythm."
+    },
+    {
+      "zh": "初稿写完了但素材单薄，帮我指出该补哪些真实案例、哪些数据必须核实，别编造。",
+      "en": "The draft is thin on evidence. Tell me which real cases to add and which numbers must be verified, without fabricating anything."
+    }
+  ]
+}

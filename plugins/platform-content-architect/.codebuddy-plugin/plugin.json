@@ -1,0 +1,61 @@
+{
+  "name": "platform-content-architect",
+  "version": "1.0.0",
+  "description": "Multi-platform content architect who adapts one master draft into five platform-native versions with tailored titles, hooks, tags and compliance checks.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/platform-content-architect.md"
+  ],
+  "expertType": "agent",
+  "agentName": "platform-content-architect",
+  "displayName": {
+    "en": "Qi Fentiao",
+    "zh": "齐分流"
+  },
+  "profession": {
+    "en": "Multi-Platform Content Architect",
+    "zh": "多平台内容架构师"
+  },
+  "displayDescription": {
+    "en": "A multi-platform architect who rewrites one master draft into five platform-native versions with titles, hooks, tags and compliance checks ready to copy.",
+    "zh": "把一篇母版改造成五平台原生稿，逐平台给标题范式、首屏钩子、标签话题与违规词自检，直出可复制正文。"
+  },
+  "avatar": "avatars/platform-content-architect.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "把这篇文章适配到小红书、公众号、头条号、百家号和搜狐号，每个平台给可直接复制的正文、标题备选、标签和违规自检。",
+    "en": "Adapt this piece for Xiaohongshu, WeChat Official Account, Toutiao, Baijiahao and Sohu: copy-ready body text, title options, tags and a compliance check for each."
+  },
+  "plugin": "platform-content-architect",
+  "tags": [
+    {
+      "en": "Multi-Platform Adaptation",
+      "zh": "多平台适配"
+    },
+    {
+      "en": "Title & Hashtag Strategy",
+      "zh": "标题与话题策略"
+    },
+    {
+      "en": "Platform Compliance",
+      "zh": "平台合规风控"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "把这篇文章适配到小红书、公众号、头条号、百家号和搜狐号，每个平台给可直接复制的正文、标题备选、标签和违规自检。",
+      "en": "Adapt this piece for Xiaohongshu, WeChat Official Account, Toutiao, Baijiahao and Sohu: copy-ready body text, title options, tags and a compliance check for each."
+    },
+    {
+      "zh": "帮我改标题：每个平台给 3 个备选，标注推荐项并说明理由，不能超字数也不能有极限词。",
+      "en": "Rewrite my titles: three options per platform with a recommended pick and rationale, within character limits and free of absolute claims."
+    },
+    {
+      "zh": "检查这篇稿子在五个平台的违规与限流风险词，列出替换方案。",
+      "en": "Check this draft for violation and throttling risks across all five platforms and list the replacements."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "legal-compliance-auditor",
+  "version": "1.0.0",
+  "description": "Legal and compliance final reviewer who runs platform-rules, advertising-law and legal-risk checks on every outgoing post and holds veto power to block anything unsafe.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/legal-compliance-auditor.md"
+  ],
+  "expertType": "agent",
+  "agentName": "legal-compliance-auditor",
+  "displayName": {
+    "en": "Yan Shouzheng",
+    "zh": "严守正"
+  },
+  "profession": {
+    "en": "Legal Compliance Final Reviewer",
+    "zh": "法务合规终审专家"
+  },
+  "displayDescription": {
+    "en": "Legal and compliance final reviewer who runs platform-rules, advertising-law and legal-risk checks on every outgoing post and holds veto power to block anything unsafe.",
+    "zh": "对稿件、标题、配图文案与标签做平台规范、广告法与法律风险三重终审，拥有否决权，直出放行或驳回结论。"
+  },
+  "avatar": "avatars/legal-compliance-auditor.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "提交终审：请对这批待发布稿件的标题、正文、配图文案和标签做三重合规审核，给出放行或驳回结论，驳回时逐条列出违规点与修改建议。",
+    "en": "Submit for final review: run platform-rules, advertising-law and legal-risk checks on these titles, body copy, visual captions and tags, then return a pass-or-reject verdict with itemised violations and fixes for anything rejected."
+  },
+  "plugin": "legal-compliance-auditor",
+  "tags": [
+    {
+      "en": "Ad Law Compliance",
+      "zh": "广告法合规"
+    },
+    {
+      "en": "Platform Content Rules",
+      "zh": "平台内容规范"
+    },
+    {
+      "en": "Legal Risk Review",
+      "zh": "内容法律风险"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "提交终审：请对这批待发布稿件的标题、正文、配图文案和标签做三重合规审核，给出放行或驳回结论，驳回时逐条列出违规点与修改建议。",
+      "en": "Submit for final review: run platform-rules, advertising-law and legal-risk checks on these titles, body copy, visual captions and tags, then return a pass-or-reject verdict with itemised violations and fixes for anything rejected."
+    },
+    {
+      "zh": "帮我排查这批内容里的违禁词、极限词、虚假宣传与侵权风险，逐条给出依据和可直接替换的改法。",
+      "en": "Screen this batch for banned terms, absolute claims, false advertising and IP infringement, with the basis and a drop-in replacement for each hit."
+    },
+    {
+      "zh": "把这次审核发现的风险点整理成合规复盘，沉淀进风险词库，并指出哪个环节该前置拦截。",
+      "en": "Turn this review into a compliance post-mortem, fold the findings into the risk-term library, and flag which pipeline stage should block them earlier."
+    }
+  ]
+}

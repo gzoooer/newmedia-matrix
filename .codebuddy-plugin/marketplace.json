@@ -1,0 +1,94 @@
+{
+  "name": "newmedia-matrix",
+  "description": "新媒体矩阵专家市场 - 1 位矩阵操盘总监 + 7 位内容生产与风控专业专家",
+  "description_en": "New Media Matrix Expert Marketplace - one matrix director plus seven content and compliance specialists",
+  "owner": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "matrix-director",
+      "description": "Veteran new media matrix director orchestrating topic, writing, polish, platform, visual, data and legal-compliance agents in a daily PDCA loop.",
+      "source": "./plugins/matrix-director",
+      "version": "1.0.0",
+      "category": "05-MarketingGrowth",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "topic-insight-analyst",
+      "description": "Topic insight analyst who mines niche trends, audience pain points and viral factors to build a ranked topic pool with explicit selection rationale.",
+      "source": "./plugins/topic-insight-analyst",
+      "version": "1.0.0",
+      "category": "06-ContentCreative",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "draft-chief-writer",
+      "description": "Chief content writer who turns a locked topic into a sharp, well-structured master draft with a clear viewpoint, real supporting cases and a closed logic chain.",
+      "source": "./plugins/draft-chief-writer",
+      "version": "1.0.0",
+      "category": "06-ContentCreative",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "dehumanizing-polisher",
+      "description": "Humanization editor who strips AI tells, template feel and mechanical structure from any draft, delivering a natural-voiced rewrite with a line-by-line change log.",
+      "source": "./plugins/dehumanizing-polisher",
+      "version": "1.0.0",
+      "category": "06-ContentCreative",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "platform-content-architect",
+      "description": "Multi-platform content architect who adapts one master draft into five platform-native versions with tailored titles, hooks, tags and compliance checks.",
+      "source": "./plugins/platform-content-architect",
+      "version": "1.0.0",
+      "category": "05-MarketingGrowth",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "visual-prompt-planner",
+      "description": "Visual planner who designs cover and inline image schemes for five platforms and writes image-tool-ready AI prompts with composition, lighting, palette and negative words.",
+      "source": "./plugins/visual-prompt-planner",
+      "version": "1.0.0",
+      "category": "01-ProductDesign",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "data-review-analyst",
+      "description": "Data review analyst who attributes cross-platform metrics, grades content S/A/B/C and returns viral factor teardowns plus next-day quantified fixes.",
+      "source": "./plugins/data-review-analyst",
+      "version": "1.0.0",
+      "category": "04-DataAI",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    },
+    {
+      "name": "legal-compliance-auditor",
+      "description": "Legal and compliance final reviewer who runs platform-rules, advertising-law and legal-risk checks on every outgoing post and holds veto power to block anything unsafe.",
+      "source": "./plugins/legal-compliance-auditor",
+      "version": "1.0.0",
+      "category": "11-SecurityCompliance",
+      "author": {
+        "name": "WorkBuddy User"
+      }
+    }
+  ]
+}

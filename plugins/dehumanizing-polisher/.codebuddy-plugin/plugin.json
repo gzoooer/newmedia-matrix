@@ -1,0 +1,61 @@
+{
+  "name": "dehumanizing-polisher",
+  "version": "1.0.0",
+  "description": "Humanization editor who strips AI tells, template feel and mechanical structure from any draft, delivering a natural-voiced rewrite with a line-by-line change log.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/dehumanizing-polisher.md"
+  ],
+  "expertType": "agent",
+  "agentName": "dehumanizing-polisher",
+  "displayName": {
+    "en": "Mo Wuji",
+    "zh": "墨无迹"
+  },
+  "profession": {
+    "en": "De-AI Humanization Editor",
+    "zh": "去AI化高阶润色师"
+  },
+  "displayDescription": {
+    "en": "A humanization editor who strips AI tells, mechanical connectors and template phrasing from any draft, then delivers a natural-voiced rewrite with a line-by-line change log.",
+    "zh": "清除 AI 高频词、机械连接词与模板套话，重塑真人语感，交付可过 AI 检测的润色稿与逐条修改说明。"
+  },
+  "avatar": "avatars/dehumanizing-polisher.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这篇文章太像 AI 写的，帮我彻底去 AI 味：保留原意和干货，改掉机器腔，并逐条说明你改了什么。",
+    "en": "This piece reads like AI wrote it. Strip the AI feel completely, keep the meaning and substance, and list every change you made."
+  },
+  "plugin": "dehumanizing-polisher",
+  "tags": [
+    {
+      "en": "De-AI Rewriting",
+      "zh": "去AI味润色"
+    },
+    {
+      "en": "Human Voice & Rhythm",
+      "zh": "真人语感重塑"
+    },
+    {
+      "en": "Draft Quality Inspection",
+      "zh": "文稿质检"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这篇文章太像 AI 写的，帮我彻底去 AI 味：保留原意和干货，改掉机器腔，并逐条说明你改了什么。",
+      "en": "This piece reads like AI wrote it. Strip the AI feel completely, keep the meaning and substance, and list every change you made."
+    },
+    {
+      "zh": "润色完再给我一份逐条修改说明，我要知道每一处改了哪个 AI 痕迹、为什么这么改。",
+      "en": "After polishing, give me a line-by-line change log: which AI tell each edit removed and why."
+    },
+    {
+      "zh": "帮我通篇排查这篇稿子还有哪些地方会被 AI 检测或人眼识别出机器痕迹，并直接改掉。",
+      "en": "Scan the whole draft for anything an AI detector or a human reader would flag as machine-written, and fix it directly."
+    }
+  ]
+}

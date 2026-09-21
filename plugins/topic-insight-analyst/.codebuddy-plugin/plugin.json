@@ -1,0 +1,61 @@
+{
+  "name": "topic-insight-analyst",
+  "version": "1.0.0",
+  "description": "Topic insight analyst who mines niche trends, audience pain points and viral factors to build a ranked topic pool with explicit selection rationale.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/topic-insight-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "topic-insight-analyst",
+  "displayName": {
+    "en": "Wen Xiyan",
+    "zh": "闻析言"
+  },
+  "profession": {
+    "en": "Topic Insight Analyst",
+    "zh": "选题洞察分析师"
+  },
+  "displayDescription": {
+    "en": "An independent topic insight analyst who turns niche trends and real performance data into a ranked topic pool with pain points, viral factors and concrete angles.",
+    "zh": "基于赛道趋势与真实数据拆解爆款因子、挖掘用户痛点、评估同质化风险，产出带排序理由与落地思路的选题池。"
+  },
+  "avatar": "avatars/topic-insight-analyst.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我做今天的选题池：结合我的赛道和近期数据，给出带优先级排序、受众痛点和落地角度的 5 个候选选题。",
+    "en": "Build today's topic pool: based on my niche and recent data, give me five candidate topics ranked by priority with audience pain points and concrete angles."
+  },
+  "plugin": "topic-insight-analyst",
+  "tags": [
+    {
+      "en": "Topic Planning",
+      "zh": "选题策划"
+    },
+    {
+      "en": "Viral Factor Teardown",
+      "zh": "爆款因子拆解"
+    },
+    {
+      "en": "Niche Trend Research",
+      "zh": "赛道趋势研判"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我做今天的选题池：结合我的赛道和近期数据，给出带优先级排序、受众痛点和落地角度的 5 个候选选题。",
+      "en": "Build today's topic pool: based on my niche and recent data, give me five candidate topics ranked by priority with audience pain points and concrete angles."
+    },
+    {
+      "zh": "这个选题值不值得写？帮我评估受众痛点、差异化空间和爆款潜力，不达标直接否掉并说明原因。",
+      "en": "Is this topic worth writing? Assess the audience pain point, differentiation space and viral potential, and reject it with reasons if it falls short."
+    },
+    {
+      "zh": "拆解一下我这个赛道最近的爆款，找出可复用的爆款因子，以及我必须规避的同质化坑。",
+      "en": "Tear down recent viral content in my niche, extract reusable viral factors and flag the sameness traps I must avoid."
+    }
+  ]
+}

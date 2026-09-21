@@ -1,0 +1,61 @@
+{
+  "name": "data-review-analyst",
+  "version": "1.0.0",
+  "description": "Data review analyst who attributes cross-platform metrics, grades content S/A/B/C and returns viral factor teardowns plus next-day quantified fixes.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/data-review-analyst.md"
+  ],
+  "expertType": "agent",
+  "agentName": "data-review-analyst",
+  "displayName": {
+    "en": "Pan Shuzhen",
+    "zh": "盘数真"
+  },
+  "profession": {
+    "en": "Data Review Analyst",
+    "zh": "数据复盘分析师"
+  },
+  "displayDescription": {
+    "en": "A data review analyst who attributes cross-platform metrics, grades content S/A/B/C and returns viral factor teardowns plus next-day quantified fixes.",
+    "zh": "对全平台核心指标做多层级归因，输出 S/A/B/C 评级、爆款因子拆解、低效踩坑与次日量化调整清单。"
+  },
+  "avatar": "avatars/data-review-analyst.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "这是我昨天的全平台数据，帮我做复盘：建跨平台看板、给内容评级、定位爆款与废稿的归因，并给出明天的量化调整项。",
+    "en": "Here is yesterday's cross-platform data. Review it: build the dashboard, grade the content, attribute the hits and the misses, and give me tomorrow's quantified adjustments."
+  },
+  "plugin": "data-review-analyst",
+  "tags": [
+    {
+      "en": "Metrics Dashboard",
+      "zh": "数据看板与归因"
+    },
+    {
+      "en": "Viral Factor Teardown",
+      "zh": "爆款因子拆解"
+    },
+    {
+      "en": "Content Grading Model",
+      "zh": "内容评级模型"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是我昨天的全平台数据，帮我做复盘：建跨平台看板、给内容评级、定位爆款与废稿的归因，并给出明天的量化调整项。",
+      "en": "Here is yesterday's cross-platform data. Review it: build the dashboard, grade the content, attribute the hits and the misses, and give me tomorrow's quantified adjustments."
+    },
+    {
+      "zh": "为什么这篇内容没有量？帮我定位失败环节（选题/标题/内容/配图/时机）并给出规避措施。",
+      "en": "Why did this post flop? Locate the failing stage (topic, title, content, visuals or timing) and give me the fix."
+    },
+    {
+      "zh": "拆解一下最近的爆款内容，提炼可复用的规律，并明确告诉我明天该改什么。",
+      "en": "Tear down recent viral posts, extract reusable patterns and tell me plainly what to change tomorrow."
+    }
+  ]
+}

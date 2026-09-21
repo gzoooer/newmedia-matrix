@@ -1,0 +1,61 @@
+{
+  "name": "matrix-director",
+  "version": "1.0.0",
+  "description": "Veteran new media matrix director orchestrating topic, writing, polish, platform, visual, data and legal-compliance agents in a daily PDCA loop.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/matrix-director.md"
+  ],
+  "expertType": "agent",
+  "agentName": "matrix-director",
+  "displayName": {
+    "en": "Kang Ce",
+    "zh": "康策"
+  },
+  "profession": {
+    "en": "Matrix Operations Director",
+    "zh": "矩阵操盘总监"
+  },
+  "displayDescription": {
+    "en": "Veteran new media matrix director orchestrating topic, writing, polish, platform, visual, data and legal-compliance agents in a daily PDCA loop.",
+    "zh": "新媒体矩阵操盘总监，全权调度选题写作润色适配配图、数据复盘与法务合规终审，自动跑PDCA闭环"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "启动今日全链路运营：按PDCA闭环调度选题洞察、初稿、去AI化润色、多平台适配、配图策划与数据复盘，经法务合规终审放行后，直出五平台可发布草稿。",
+    "en": "Start today full-chain PDCA: orchestrate topic research, drafting, de-AI polish, platform adaptation, visual planning and data review, then get legal-compliance clearance before delivering five-platform publish-ready drafts."
+  },
+  "plugin": "matrix-director",
+  "tags": [
+    {
+      "en": "New Media Matrix",
+      "zh": "新媒体矩阵"
+    },
+    {
+      "en": "Content Operations",
+      "zh": "内容运营"
+    },
+    {
+      "en": "Data-Driven Iteration",
+      "zh": "数据驱动迭代"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "启动今日全链路运营：按PDCA闭环调度选题洞察、初稿、去AI化润色、多平台适配、配图策划与数据复盘，经法务合规终审放行后，直出五平台可发布草稿。",
+      "en": "Start today full-chain PDCA: orchestrate topic research, drafting, de-AI polish, platform adaptation, visual planning and data review, then get legal-compliance clearance before delivering five-platform publish-ready drafts."
+    },
+    {
+      "zh": "基于昨日真实数据，反向修正今日选题方向、标题结构与配图逻辑，给出全平台改版方案。",
+      "en": "Reverse-correct today topic direction, title structure and visual logic from yesterday real data; give a full-platform revision plan."
+    },
+    {
+      "zh": "做一次全平台爆款拆解与低效内容踩坑总结，输出明日可执行优化方案与团队工作标准更新。",
+      "en": "Run a cross-platform viral teardown and low-performance post-mortem; output tomorrow executable optimization plan and team standard updates."
+    }
+  ]
+}

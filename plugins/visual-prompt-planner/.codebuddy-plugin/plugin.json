@@ -1,0 +1,61 @@
+{
+  "name": "visual-prompt-planner",
+  "version": "1.0.0",
+  "description": "Visual planner who designs cover and inline image schemes for five platforms and writes image-tool-ready AI prompts with composition, lighting, palette and negative words.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/visual-prompt-planner.md"
+  ],
+  "expertType": "agent",
+  "agentName": "visual-prompt-planner",
+  "displayName": {
+    "en": "Tu Mingshe",
+    "zh": "图鸣设"
+  },
+  "profession": {
+    "en": "Visual Prompt Planner",
+    "zh": "全平台配图策划专家"
+  },
+  "displayDescription": {
+    "en": "A visual planner who designs cover and inline visuals for five platforms and writes image-tool-ready prompts with composition, lighting, palette and negative words.",
+    "zh": "为五平台定制封面与内图视觉方案，输出含构图、光影、色彩、比例与负向词的可出图的 AI 绘图提示词。"
+  },
+  "avatar": "avatars/visual-prompt-planner.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "给我这篇文章的配图方案：各平台封面构图、色彩与风格，加上可直接投喂绘图工具的完整提示词（含负向词）。",
+    "en": "Plan the visuals for this article: cover composition, palette and style per platform, plus complete image-tool-ready prompts including negative words."
+  },
+  "plugin": "visual-prompt-planner",
+  "tags": [
+    {
+      "en": "Visual Planning",
+      "zh": "配图视觉策划"
+    },
+    {
+      "en": "AI Image Prompts",
+      "zh": "AI绘图提示词"
+    },
+    {
+      "en": "Cover CTR Optimization",
+      "zh": "封面点击率优化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "给我这篇文章的配图方案：各平台封面构图、色彩与风格，加上可直接投喂绘图工具的完整提示词（含负向词）。",
+      "en": "Plan the visuals for this article: cover composition, palette and style per platform, plus complete image-tool-ready prompts including negative words."
+    },
+    {
+      "zh": "这套配图点击率不行，帮我重新定视觉方向，给出更吸睛的封面方案和新提示词。",
+      "en": "These visuals underperform. Reset the visual direction and give me a more clickable cover scheme with new prompts."
+    },
+    {
+      "zh": "这篇内容内图该放几张？每张承载什么信息？逐张给我可落地提示词。",
+      "en": "How many inline images should this piece have, what does each carry, and what are the ready-to-use prompts for each?"
+    }
+  ]
+}
