@@ -25,15 +25,17 @@ WorkBuddy 专家市场仓库。含 1 位矩阵操盘总监 + 7 位内容生产�
 
 ## 二、发布者：怎么上线这个市场
 
-### 1. 推到 GitHub（首次）
+本市场已上线：**https://github.com/gzoooer/newmedia-matrix**（Public，默认分支 `main`）
+
+### 1. 当前远端配置
 
 ```bash
 cd "新媒体矩阵专家市场"
-git remote add origin git@github.com:<你的账号>/newmedia-matrix.git
-git push -u origin main
+git remote -v          # origin  git@github.com:gzoooer/newmedia-matrix.git
+git push               # 已配置 upstream，直接 push 即可
 ```
 
-仓库设为 **Public**（私有仓库需要对方配置 SSH/Token 才能订阅）。
+> 本机 GitHub 的 22 端口被网络封锁，`~/.ssh/config` 已把 `github.com` 指向 `ssh.github.com:443`，命令无需改动。
 
 ### 2. 以后每次更新（一条命令发版）
 
@@ -56,10 +58,10 @@ git push
 ## 三、使用者：怎么订阅
 
 1. 打开 WorkBuddy →「专家 / 技能 / 连接器」→ 插件市场 → **「添加市场」**
-2. 市场源填以下任一种：
-   - `你的账号/newmedia-matrix`（GitHub 简写）
-   - `https://github.com/你的账号/newmedia-matrix`（完整地址）
-   - `git@github.com:你的账号/newmedia-matrix.git`（SSH）
+2. 市场源填下面任意一条（**推荐第一条，直接复制**）：
+   - `gzoooer/newmedia-matrix`
+   - `https://github.com/gzoooer/newmedia-matrix`
+   - `git@github.com:gzoooer/newmedia-matrix.git`
    - 本地目录路径（如 `./newmedia-matrix`）或一个市场 zip 的 URL
 3. 提交 → 自动下载/解压/安装市场
 4. 在市场里逐个安装 8 个专家
